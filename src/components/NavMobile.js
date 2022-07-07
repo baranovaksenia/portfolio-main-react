@@ -68,9 +68,9 @@ const NavMobile = () => {
           className="cursor-pointer absolute top-8 right-[105px]">
           <XIcon className="w-8 h-8" />
         </div>
-        {navigation.map((item, idx) => {
+        {navigation.map((item, index) => {
           return (
-            <li key={idx} className="mb-8">
+            <li key={index} className="mb-8">
               <Link
                 to={item.href}
                 smooth={true}
@@ -78,7 +78,7 @@ const NavMobile = () => {
                 activeClass="active"
                 duration={500}
                 offset={-70}
-                className="transition-all duration-300">
+                className=" cursor-pointer transition-all duration-300">
                 {item.name}
               </Link>
             </li>
