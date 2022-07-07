@@ -1,6 +1,7 @@
 //import components
 import About from './components/About';
 import Brands from './components/Brands';
+import Contact from './components/Contact';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
@@ -19,6 +20,7 @@ function App() {
       <Portfolio />
       <Services />
       <Testimonials />
+      <Contact />
     </div>
   );
 }
